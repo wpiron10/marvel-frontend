@@ -40,9 +40,17 @@ const Characters = () => {
                   <h3>{character.name}</h3>
 
                   {character.description.length > 0 ? (
-                    <img className="character-img" src={imgGifSrc} />
+                    <img
+                      className="character-img"
+                      src={imgGifSrc}
+                      alt={character.name}
+                    />
                   ) : (
-                    <img className="character-img" src={imgGifSrc} />
+                    <img
+                      className="character-img"
+                      src={imgGifSrc}
+                      alt={character.name}
+                    />
                   )}
                 </div>
               </Link>

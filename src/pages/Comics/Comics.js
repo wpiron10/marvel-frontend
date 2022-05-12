@@ -5,8 +5,8 @@ import axios from "axios";
 const Comics = () => {
   const [data, setData] = useState();
   const [isLoading, setIsLoading] = useState(true);
-  const [page, setPage] = useState(1);
-  const [limit, setLimit] = useState(100);
+  // const [page, setPage] = useState(1);
+  // const [limit, setLimit] = useState(100);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -37,7 +37,10 @@ const Comics = () => {
                 <div className="comic-book" key={comics._id}>
                   <h3>{comics.title}</h3>
 
-                  <img src={comics.thumbnail.path + "/portrait_uncanny.jpg"} />
+                  <img
+                    src={comics.thumbnail.path + "/portrait_uncanny.jpg"}
+                    alt={comics.title}
+                  />
                   <p>{comics.description}</p>
                 </div>
               )
