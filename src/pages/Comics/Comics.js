@@ -23,7 +23,7 @@ const Comics = () => {
       }
     };
     fetchData();
-  }, [page, limit]);
+  }, []);
 
   return isLoading === true ? (
     <p> en cours de chargement...</p>
