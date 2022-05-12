@@ -1,0 +1,17 @@
+p {
+  color: black;
+  font-size: 10px;
+}
+
+.main-home {
+  width: 100%;
+  height: 90vh;
+  border: 3px blue solid;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 80%;
+  height: 100%;
+  border: 3px purple solid;
+}

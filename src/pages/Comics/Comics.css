@@ -1,0 +1,38 @@
+p {
+  color: black;
+  font-size: 10px;
+}
+
+.main-comics {
+  width: 100%;
+  height: 100%;
+  border: 3px red solid;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  border: 3px purple solid;
+  flex-direction: row;
+
+  gap: 10px;
+}
+
+.comics {
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 3px yellow solid;
+}
+
+.comic-book {
+  flex-direction: row;
+  border: 3px orange solid;
+  width: 330px;
+  margin: 10px;
+}

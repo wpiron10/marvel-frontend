@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+/* p {
+  color: white;
+} */
+
+.main-header {
+  height: 100%;
+  width: 100%;
+  border: 3px red solid;
+}
+
+.logo-content {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: 100%;
+  width: 10%;
+}
