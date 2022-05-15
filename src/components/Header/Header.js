@@ -6,18 +6,26 @@ const Header = () => {
   return (
     <div className="main-header">
       <div className="logo-content">
-        <img src={logo} className="logo" alt="logo - marvel" />
+        <Link to={`/`} className="logo-link">
+          <img src={logo} alt="logo - marvel" className="logo" />
+        </Link>
       </div>
       <div>
-        <ul>
-          <li>
-            <Link to="/comics">Comics</Link>
+        <ul className="main-menu">
+          <li className="menu-btn">
+            <Link to="/comics">
+              <h2>Comics</h2>
+            </Link>
           </li>
-          <li>
-            <Link to="/characters">Personnages</Link>
+          <li className="menu-btn">
+            <Link to="/characters">
+              <h2>Personnages</h2>
+            </Link>
           </li>
-          <li>
-            <Link to="/favorites">Favoris</Link>
+          <li className="menu-btn">
+            <Link to="/favorites">
+              <h2>Mes favoris</h2>
+            </Link>
           </li>
         </ul>
       </div>

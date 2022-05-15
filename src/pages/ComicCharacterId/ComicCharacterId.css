@@ -1,0 +1,60 @@
+.main-charac-ID {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.charac-ID-title {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  border: 3px solid salmon;
+  overflow: ellipsis;
+  flex-wrap: nowrap;
+}
+
+h3 {
+  width: 100%;
+  /* border: 3px solid red; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.container-characID {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  border: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.charac-ID-content {
+  flex-direction: row;
+  background-color: rgb(30, 32, 34);
+  border-radius: 10px;
+  width: 330px;
+  margin: 10px;
+}
+.characID-img {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+  object-position: center;
+}
+p {
+  color: white;
+  text-align: justify;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 60px;
+}

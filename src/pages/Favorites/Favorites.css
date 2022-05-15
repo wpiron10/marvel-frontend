@@ -1,0 +1,72 @@
+.main-favorites {
+  width: 100%;
+  height: 100%;
+  /* border: 3px red solid; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  font-size: 1em;
+  color: white;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  /* border: 3px purple solid; */
+  flex-direction: row;
+
+  gap: 10px;
+}
+
+.content-card-fav {
+  height: 30vh;
+  background-color: rgb(30, 32, 34);
+  border-radius: 5px;
+  margin: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.character-fav {
+  width: 100%;
+  height: 100%;
+  max-height: 40vh;
+}
+
+.favorite-img {
+  width: 90% !important;
+  height: 90px;
+  /* border: 3px red solid; */
+  object-fit: cover;
+  object-position: center;
+}
+
+button {
+  cursor: pointer;
+  width: 90%;
+}
+
+.btn-com {
+  background-color: grey;
+  color: white;
+  font-size: 1em;
+}
+
+.no-favorite {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  font-size: 0.7em;
+  text-align: center;
+}
